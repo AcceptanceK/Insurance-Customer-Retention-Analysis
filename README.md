@@ -44,16 +44,16 @@ Before automating alerts, check the timing of premium changes, missed payments a
 
 | # | Business question | SQL query | CSV result |
 |---|---|---|---|
-| 01 | How many customers own one or multiple policies? | [Query](sql_queries/01_customer_policy_ownership.sql) | [Result](results/01_customer_policy_ownership.csv) |
-| 02 | Which insurance products have the highest cancellation rates? | [Query](sql_queries/02_cancellations_by_product.sql) | [Result](results/02_cancellations_by_product.csv) |
-| 03 | How are premium increases associated with cancellations? | [Query](sql_queries/03_premium_increases_and_cancellations.sql) | [Result](results/03_premium_increases_and_cancellations.csv) |
-| 04 | How does claims experience relate to cancellations? | [Query](sql_queries/04_claims_and_cancellations.sql) | [Result](results/04_claims_and_cancellations.csv) |
-| 05 | Are missed payments associated with more cancellations? | [Query](sql_queries/05_missed_payments_and_cancellations.sql) | [Result](results/05_missed_payments_and_cancellations.csv) |
-| 06 | How many customers retain cover after cancelling a policy? | [Query](sql_queries/06_customer_retention_status.sql) | [Result](results/06_customer_retention_status.csv) |
-| 07 | How do combined warning signs relate to cancellation rates? | [Query](sql_queries/07_combined_retention_risk_signals.sql) | [Result](results/07_combined_retention_risk_signals.csv) |
-| 08 | Which customer segments have the most cancellations and complete customer losses? | [Query](sql_queries/08_retention_by_customer_segment.sql) | [Result](results/08_retention_by_customer_segment.csv) |
+| 01 | How many customers own one or multiple policies? | [sql_queries](sql_queries/01_customer_policy_ownership.sql) | [results](results/01_customer_policy_ownership.csv) |
+| 02 | Which insurance products have the highest cancellation rates? | [sql_queries](sql_queries/02_cancellations_by_product.sql) | [results](results/02_cancellations_by_product.csv) |
+| 03 | How are premium increases associated with cancellations? | [sql_queries](sql_queries/03_premium_increases_and_cancellations.sql) | [results](results/03_premium_increases_and_cancellations.csv) |
+| 04 | How does claims experience relate to cancellations? | [sql_queries](sql_queries/04_claims_and_cancellations.sql) | [Results](results/04_claims_and_cancellations.csv) |
+| 05 | Are missed payments associated with more cancellations? | [sql_queries](sql_queries/05_missed_payments_and_cancellations.sql) | [results](results/05_missed_payments_and_cancellations.csv) |
+| 06 | How many customers retain cover after cancelling a policy? | [sql_queries](sql_queries/06_customer_retention_status.sql) | [results](results/06_customer_retention_status.csv) |
+| 07 | How do combined warning signs relate to cancellation rates? | [sql_queries](sql_queries/07_combined_retention_risk_signals.sql) | [results](results/07_combined_retention_risk_signals.csv) |
+| 08 | Which customer segments have the most cancellations and complete customer losses? | [sql_queries](sql_queries/08_retention_by_customer_segment.sql) | [results](results/08_retention_by_customer_segment.csv) |
 
-For detailed business insights and recommendations for each analysis, see [Key Findings](business_insights/key_findings.md).
+For detailed business insights and recommendations for each analysis, see [business_insights](business_insights/key_findings.md).
 
 ## SQL Skills Demonstrated
 
